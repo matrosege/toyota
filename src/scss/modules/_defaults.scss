@@ -1,0 +1,54 @@
+$base_font: "Open Sans",Arial,Helvetica,sans-serif;
+$base_color: #202020;
+
+* {
+	box-sizing: border-box;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: $base_font;
+	font-size: 16px;
+	margin: 0;
+	color: $base_color;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	border: 0;
+	outline: 0;
+}
+
+sup {
+	margin-right: 1px;
+}
+
+svg {
+	g, path {
+		fill: currentColor;
+	}
+}

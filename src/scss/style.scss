@@ -1,0 +1,31 @@
+/*----------------------------------
+BREAK TOYOTA CONTAINER
+(НЕ ВСТАВЛЯТЬ В ТРИДИОН)
+----------------------------------*/
+
+@import "partials/_toyota_html5-inpage.scss";
+
+
+/*----------------------------------
+LIBS
+----------------------------------*/
+
+@import "libs/owl.carousel.scss";
+@import "libs/owl.theme.default.scss";
+
+/*----------------------------------
+CONFIG MODULES
+----------------------------------*/
+
+//@import "modules/_font.scss";
+//@import "modules/_defaults.scss";
+//@import "modules/_normalize.scss";
+//@import "modules/_controls.scss";
+
+/*----------------------------------
+PARTIALS
+----------------------------------*/
+
+@import "partials/_header.scss";
+@import "partials/_main.scss";
+@import "partials/_footer.scss";

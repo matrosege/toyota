@@ -1,0 +1,65 @@
+doctype html
+html(lang='ru')
+    include include/head
+    include include/scripts
+    body
+
+        .pdca
+
+            .bstd-section.bstd-section-header
+                .bstd-header.size-limit(style="background-image: url(assets/img/useful-links/bg_header.png);")
+                    h1 Полезные #[br] ссылки
+
+            .bstd-section
+                .size-limit
+                    p.text(style="margin-top: 65px; margin-bottom: 40px;") Мы ценим ваше время, и нам важно, чтобы знакомство с нашим сайтом, нашими автомобилями, услугами было максимально удобным и эффективным. На этой странице вы можете найти наиболее популярные ссылки. Если вы не смогли найти нужную информацию, вы всегда можете воспользоваться поиском, который доступен внизу страницы.
+                    .bstd-features
+                        .bstd-features__item
+                            img(src='assets/img/useful-links/links1.png' alt='links1')
+                            p
+                                strong Об автомобилях Toyota
+                                a(href="new-cars/index" target="_blank") Модельный ряд#[br]
+                                a(href="configure" target="_blank") Конфигуратор#[br]
+                                a(href="world-of-toyota/technology/technology" target="_blank") Технологии#[br]#[br]
+                        .bstd-features__item
+                            img(src='assets/img/useful-links/links2.png' alt='links2')
+                            p
+                                strong Условия покупки
+                                a(href="current-offers/all-offers" target="_blank") Специальные предложения#[br]
+                                a(href="buy-a-toyota/used-cars/trade-in" target="_blank") Trade-in#[br]#[br]
+                        .bstd-features__item
+                            img(src='assets/img/useful-links/links3.png' alt='links3')
+                            p(style="margin-bottom: 33px;")
+                                strong Кредитование
+                                a(href="forms/credit" target="_blank") Заявка на кредит#[br]
+                                a(href="finance-insurance/toyota-fs/calculator" target="_blank") Кредитный калькулятор#[br]
+                                a(href="bank" target="_blank") Информация о Тойота Банке#[br]
+                        .bstd-features__item
+                            img(src='assets/img/useful-links/links4.png' alt='links4')
+                            p
+                                strong Страхование
+                                a(href="forms/insurance" target="_blank") Заявка на страховку#[br]
+                                a(href="finance-insurance/insurance-calculator" target="_blank") Страховой калькулятор#[br]
+                                a(href="finance-insurance/insurance" target="_blank") Информация о Тойота Страховании#[br]#[br]
+                        .bstd-features__item
+                            img(src='assets/img/useful-links/links5.png' alt='links5')
+                            p
+                                strong Обслуживание
+                                a(href="owners/maintenance/to-online" target="_blank") Запись на ТО#[br]
+                                a(href="owners/maintenance/regulations-to" target="_blank") Регламент ТО#[br]
+                                a(href="owners/warranty-and-service-campaign/warranty-conditions" target="_blank") Гарантия#[br]
+                                a(href="owners/spare-parts/search" target="_blank") Запасные части#[br]
+                                a(href="owners/index" target="_blank") Обслуживание и эксплуатация#[br]#[br]
+                        .bstd-features__item
+                            img(src='assets/img/useful-links/links6.png' alt='links6')
+                            p
+                                strong Контактная информация
+                                a(href="owners/clients-support" target="_blank") Служба клиентской поддержки#[br]
+                                a(href="world-of-toyota/about-company/contacts" target="_blank") Контакты#[br]
+
+            .bstd-section(style="margin-top: 60px; padding-top: 1px; padding-bottom: 70px; background-color: #e4e4e4;")
+                .size-limit
+                    h1.title Если вы не нашли, что искали, пожалуйста, воспользуйтесь поиском
+                    .bstd-form
+                        form(action="/search")
+                            input.search(type="text" name="search" placeholder="Поиск")

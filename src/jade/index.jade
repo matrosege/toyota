@@ -1,0 +1,369 @@
+doctype html
+html(lang='ru')
+    include include/head
+    include include/scripts
+    body
+
+        .pdca
+
+            .bstd-section.bstd-section-header
+                .bstd-header.size-limit(style="background-image: url(assets/img/template/bg_header.png);")
+                    h1 Заголовок #[br] Страницы
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-intro)
+                    p.text(style="margin-top: -26px; margin-bottom: 40px;") Текст 16px. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                    .bstd-intro
+                        .bstd-intro__item Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        .bstd-intro__item Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                        .bstd-intro__item Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-features)
+                    .bstd-features
+                        .bstd-features__item
+                            img(src='assets/img/template/features1.png' alt='features1')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        .bstd-features__item
+                            img(src='assets/img/template/features2.png' alt='features2')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                        .bstd-features__item
+                            img(src='assets/img/template/features3.png' alt='features3')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a.
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-features)
+                    .bstd-features
+                        .bstd-features__item.bstd-features__item--4
+                            img(src='assets/img/template/products1.png' alt='products1')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        .bstd-features__item.bstd-features__item--4
+                            img(src='assets/img/template/products2.png' alt='products2')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        .bstd-features__item.bstd-features__item--4
+                            img(src='assets/img/template/products3.png' alt='products3')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                        .bstd-features__item.bstd-features__item--4
+                            img(src='assets/img/template/products4.png' alt='products4')
+                            p
+                                strong Bold Текст
+                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a.
+
+            .bstd-section
+                section.cta-inpage.t1-grey-section.hidden-xs(data-bt-eventclass="ctaevent" data-bt-category="component" data-bt-componentname="inpage_cta" data-bt-action="click_cta" data-bt-workflowstep="0")
+                    .container.align-left.size-limit
+                        .arrow
+                        .buttons
+                            ul.list-buttons
+                                li.hidden-xs
+                                    a.btn.iconlink.btn-action-primary(href="" target="_blank" data-bt-value="contact" data-bt-workflowname="contact" data-bt-track="")
+                                        i.icon.icon-calculator
+                                        | Кнопка primary
+                                li.hidden-xs
+                                    a.btn.iconlink.btn-action-secondary(href="" target="_blank" data-bt-value="contact" data-bt-workflowname="contact" data-bt-track="")
+                                        i.icon.icon-checkbox-checked
+                                        | Кнопка secondary
+                                li.hidden-xs
+                                    a.btn.iconlink.btn-simple(href="" target="_blank" data-bt-value="contact" data-bt-workflowname="contact" data-bt-track="")
+                                        i.icon.icon-map-marker
+                                        | Кнопка simple
+                                li.hidden-xs
+                                    a.btn.iconlink.btn-functional(href="" target="_blank" data-bt-value="contact" data-bt-workflowname="contact" data-bt-track="")
+                                        i.icon.icon-phone
+                                        | Кнопка functional
+                        .description Текст description
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-slider)
+                    .bstd-slider.owl-carousel.owl-theme
+                        .bstd-slider__item
+                            img(src='assets/img/template/slide1.png' alt='slide1')
+                            span Текст
+                        .bstd-slider__item
+                            img(src='assets/img/template/slide2.png' alt='slide2')
+                            span Текст#[br]две строки
+                        .bstd-slider__item
+                            img(src='assets/img/template/slide3.png' alt='slide3')
+                            span Текст#[br]три#[br]строки
+                        .bstd-slider__item
+                            img(src='assets/img/template/slide4.png' alt='slide4')
+                            span Текст
+
+            .bstd-section
+                h1.title Заголовок блока (bstd-services) 4 items
+                .bstd-services
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service1.jpg' alt='service1')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service2.jpg' alt='service2')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service3.jpg' alt='service3')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service1.jpg' alt='service1')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+                                
+            .bstd-section
+                h1.title Заголовок блока (bstd-services) 3 items
+                .bstd-services
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service1.jpg' alt='service1')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service2.jpg' alt='service2')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+                    .bstd-services__item
+                        a.image(href="" target="_blank")
+                            img(src='assets/img/template/service3.jpg' alt='service3')
+                        .text
+                            strong Жирный подзаголовок
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                        a.btn.btn-small.btn-action-secondary(href="" target="_blank")
+                            | Подробнее
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-other)
+                    .bstd-other
+                        a.bstd-other__item(href="" target="_blank")
+                            .image
+                                img(src='assets/img/template/other1.png' alt='other1')
+                            span Cсылка
+                        a.bstd-other__item(href="" target="_blank")
+                            .image
+                                img(src='assets/img/template/other2.png' alt='other2')
+                            span Cсылка#[br]две строки
+                        a.bstd-other__item(href="" target="_blank")
+                            .image
+                                img(src='assets/img/template/other3.png' alt='other3')
+                            span Cсылка
+                        a.bstd-other__item(href="" target="_blank")
+                            .image
+                                img(src='assets/img/template/other4.png' alt='other4')
+                            span Cсылка
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-table)
+                    p.text Программа сертификации — это комплексная проверка автомобиля по 136 пунктам для автомобилей Toyota от официальных дилеров, не старше 5 лет и не имеющих нарушений несущих элементов и геометрии кузова. Превосходное состояние подтверждается Листом инспекции.
+
+                    .bstd-table.table-responsive(style="padding-bottom: 1px; padding-right: 1px;")
+                        .bstd-table__button
+                            a.btn.btn-action-primary Показать все
+                        table
+                            thead
+                                tr
+                                    th(style="width: 50%; max-width: 570px;") Программы
+                                    th(style="width: 25%; max-width: 285px;") Toyota Tested
+                                    th(style="width: 25%; max-width: 285px;") AutoSelect
+                            tbody
+                                tbody.tlabel
+                                    tr
+                                        td(colspan="3")
+                                            label Основные параметры
+                                                input(type="checkbox" data-toggle="toggle")
+                                                span.icon.icon-chevron-down.icon-chevron-up
+                                tbody.thide
+                                    tr.same
+                                        td Возраст
+                                        td до 5 лет
+                                        td до 5 лет
+                                    tr.differ
+                                        td Пробег
+                                        td до 130 000 км
+                                        td до 100 000 км
+                                    tr.differ
+                                        td Оценка сертифицированным инспектором (баллы)
+                                        td 4 – 5+
+                                        td 1 – 5+
+                                    tr.same
+                                        td Официально ввезен на территорию РФ
+                                        td Да
+                                        td Да
+                                    tr.same
+                                        td Автомобиль не имеет нарушений несущих элементов кузова в результате ДТП
+                                        td Да
+                                        td Да
+                                tbody.tlabel
+                                    tr.same
+                                        td(colspan="3")
+                                            label Комплексная проверка автомобиля
+                                                input(type="checkbox" data-toggle="toggle")
+                                                span.icon.icon-chevron-down
+                                tbody.thide(style="display: none;")
+                                    tr.same
+                                        td Кол-во точек проверки автомобиля (кузов/салон/техническая часть)
+                                        td 136
+                                        td 136
+                                    tr.same
+                                        td Проведение проверки состояния автомобиля сертифицированным инспектором
+                                        td Да
+                                        td Да
+                                tbody.tlabel
+                                    tr
+                                        td(colspan="3")
+                                            label Постгарантийная поддержка
+                                                input(type="checkbox" data-toggle="toggle")
+                                                span.icon.icon-chevron-down
+                                tbody.thide(style="display: none;")
+                                    tr.same
+                                        td Кто предоставляет
+                                        td Производитель
+                                        td Производитель
+                                    tr.differ
+                                        td Покрытие
+                                        td Полное
+                                        td Двигатель и коробка передач
+                                    tr.differ
+                                        td Период действия (срок)
+                                        td 12 месяцев
+                                        td 6 месяцев
+                                    tr.differ
+                                        td Период действия (пробег)
+                                        td До 160 000 км
+                                        td До 115 000 км
+                                    tr.differ
+                                        td Действует после окончания заводской гарантии
+                                        td До наступления 6 лет или 160 000 км
+                                        td До наступления 5.5 лет или 115 000 км
+                                tbody.tlabel
+                                    tr
+                                        td(colspan="3")
+                                            label Лаборатория Чистоты
+                                                input(type="checkbox" data-toggle="toggle")
+                                                span.icon.icon-chevron-down
+                                tbody.thide(style="display: none;")
+                                    tr.same
+                                        td Глубокая химчистка и влажная уборка салона
+                                        td Да
+                                        td Да
+                                    tr.differ
+                                        td Снятие сидений для более глубокой очистки
+                                        td Да
+                                        td Нет
+                                    tr.same
+                                        td Дезинфицирование салона/обработка системы вентиляции парогенератором
+                                        td Да
+                                        td Да
+                                    tr.same
+                                        td Очистка/полировка всех пластиковых панелей
+                                        td Да
+                                        td Да
+                                    tr.differ
+                                        td Полировка кузова автомобиля
+                                        td Да
+                                        td Нет
+                                    tr.same
+                                        td Очистка подкапотного пространства
+                                        td Да
+                                        td Да
+                                    tr.same
+                                        td Чернение шин
+                                        td Да
+                                        td Да
+                                    tr.differ
+                                        td Полировка фар
+                                        td Да
+                                        td Нет
+                                tbody.tlabel
+                                    tr.same
+                                        td(colspan="3")
+                                            label Базовое обслуживание
+                                                input(type="checkbox" data-toggle="toggle")
+                                                span.icon.icon-chevron-down
+                                tbody.thide(style="display: none;")
+                                    tr.same
+                                        td Замена масла
+                                        td Да
+                                        td Да
+                                    tr.same
+                                        td Замена масляного фильтра
+                                        td Да
+                                        td Да
+                                    tr.same
+                                        td Замена воздушного фильтра салона
+                                        td Да
+                                        td Да
+                                    tr.same
+                                        td Замена щеток лобового стекла
+                                        td в случае износа
+                                        td в случае износа
+                                    tr.same
+                                        td Замена тормозных дисков
+                                        td в случае износа
+                                        td в случае износа
+                                    tr.same
+                                        td Замена тормозных колодок
+                                        td в случае износа
+                                        td в случае износа
+
+            .bstd-section
+                .size-limit
+                    h1.title Заголовок блока (bstd-faq)
+                    .bstd-faq.accordion
+                        .header Вопрос
+                        .content Ответ
+                        .header Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+                        .content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam! <a href="/forms/forms.json?tab=pane-dealer&amp;showAllResults=true" target="_blank">link</a>
+                        .header Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        .content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, eaque quas sequi accusantium consectetur facere illo magni enim sapiente eius animi nam quae a. At sit explicabo fugiat repellat ullam!
+
+            .bstd-section
+                .size-limit
+                    .bstd-disclaimer(style="margin-top: 40px; margin-bottom: 70px;")
+                        span.support-text Организатор Программы - ООО «Тойота Иншуранс Менеджмент (Страховые брокеры)» (Лицензия Центрального Банка Российской Федерации СБ №4339 от 12.11.2015, без ограничения срока действия). Программа реализуется при содействии страховых компаний: #[br] &mdash;&nbsp;СПАО «Ингосстрах» (лицензия Банка России СИ № 0928 от 23.09.2015, без ограничения срока действия); #[br] &mdash;&nbsp;ПАО СК «Росгосстрах» (лицензия Центрального Банка Российской Федерации СИ № 0001 от 23.05.2016, без ограничения срока действия); #[br] &mdash;&nbsp;САО «ВСК» (лицензия Центрального Банка Российской Федерации СИ № 0621 от 11.09.2015, без ограничения срока действия). #[br]#[br]#[br] Сведения, содержащиеся на настоящем сайте, носят исключительно информационный характер. Предложение не является публичной офертой (ст. 437 ГК РФ). Подключение к Программе осуществляется в соответствии с условиями индивидуального договора страхования. За всей детальной информацией касательно условий и порядка предоставления страховых услуг в рамках Программы Тойота Страхование, обращайтесь к Дилерам Тойота – участникам Программы.
+            
+            .bstd-section.hidden-xs
+                .bstd-fixed
+                    a.btn.btn-small.btn-action-primary(href="" target="_blank")
+                        | Кнопка
+                    a.btn.btn-small.btn-action-primary(href="" target="_blank")
+                        | Кнопка
